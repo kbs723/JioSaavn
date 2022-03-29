@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Songs on JioSaavn: Download &amp; Play Latest Music for Free</title>
+	<link rel="icon" href="tittle.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="Jscript.js"></script>
+	<style type="text/css">
+		:root{
+			--visLag:none;
+			--visDown:flex;
+		}
+	</style>
+	
+</head>
+<body>
+	<nav id="nav">
+		<div id="logo">
+			<img src="tittle.png" id="tittle">
+			<span>JioSaavn</span>
+		</div>
+		<div id="options">
+			<div id="left_nav">
+				<span id="Home">Home</span>
+				<span id="Browse">Browse</span>
+				<span id="Upgrade">Upgrade</span>
+			</div>
+			<div id="mid_nav">
+				<span id="Search"><i class="fa-solid fa-magnifying-glass" id="icon"></i>    Search</span>
+			</div>
+			<div id="right_nav">
+				<span id="Mlanguage">Music Language</span>
+				<div id="lang_vis" onclick="visi()">
+					<div id="lang_down">
+						<i class="fa-solid fa-angle-down"></i>
+					</div>
+					<div id="lang_up">
+						<i class="fa-solid fa-angle-up"></i>
+					</div>
+				</div>
+				<span id="Login">Log In</span>
+				<span id="signup">Sign Up</span>
+			</div>
+		</div>
+	</nav>
+	<div id="lang_container">
+	<div id="languages">
+		<div id="top_l">
+			<span>What music do you like?</span>
+			<span id="sub2">Pick all the languages you want to listen to.</span>
+		</div>
+		<div id="mid_l">
+			<div id="mid_left">
+				<span>Tamil</span>
+				<span>English</span>
+				<span>Hindi</span>
+				<span>Telugu</span>
+				<span>Malayalam</span>
+			</div>
+			<div id="mid_right">
+				<span>Gujarati</span>
+				<span>Marathi</span>
+				<span>Bengali</span>
+				<span>Punjobi</span>
+				<span>Urdu</span>
+			</div>
+		</div>
+		<div id="bottom_l">
+			<button id="update_l">Update</button>
+		</div>
+	</div>
+	</div>
+	<div id="mid_page">
+		<aside id="Libs">
+			<span id="Lib">
+				LIBRARY
+			</span>
+			<span><i class="fa-solid fa-clock-rotate-left"></i>		History</span>
+			<span><i class="fa-solid fa-music" ></i>	Songs</span>
+			<span><i class="fa-solid fa-compact-disc" ></i>	Albums</span>
+			<span><i class="fa-solid fa-podcast" ></i>	Podcasts</span>
+			<span><i class="fa-solid fa-guitar"></i>	Artists</span>
+			</span>
+			<button id="but_new"> + New Playlist</button>
+		</aside>
+		<main>
+			<span id="trend">Trending Now</span>
+			<div id="playlist">
+				<div class="song">
+					<div class="blacky"><img src="Images/img1.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img2.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img3.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img4.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img5.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img6.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img7.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img8.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img9.webp" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img10.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img11.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img1.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img2.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img3.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img4.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img5.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img6.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img7.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img8.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img9.webp" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img10.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img11.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img12.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img13.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img14.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img15.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img16.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+				<div class="song">
+					<div class="blacky"><img src="Images/img17.jpg" alt="Hip Hop Party"></div>
+					<div class="back">
+						<div class="playback">
+							<i class="fa-solid fa-play"></i>
+						</div>
+						<div class="icon_row"><i class="fa-solid fa-heart"></i>
+						<i class="fa-solid fa-ellipsis" ></i>
+						</div>
+					</div>
+					<span class="songTitle">Hip Hop Party</span>
+					<span class="artist">Hip Hop Tamizha</span>
+				</div>
+			</div>
+		</main>
+	</div>
+	<footer id="foot">
+		<div id="left_bottom">
+			<img src="https://c.saavncdn.com/editorial/HipHopParty_20201020060123_150x150.jpg" alt="Hip Hop Party">
+		</div>
+		<div id="center_bottom">
+			<i class="fa-solid fa-repeat"></i>
+			<i class="fa-solid fa-backward-step"></i>
+			<i class="fa-solid fa-play"></i>
+			<i class="fa-solid fa-forward-step"></i>
+			<i class="fa-solid fa-shuffle"></i>
+		</div>
+		<div id="right_bottom">
+			<i class="fa-solid fa-ellipsis"></i>
+			<i class="fa-solid fa-volume-high"></i>
+			<i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+		</div>
+	</footer>
+</body>
+</html>
+<!-- smooth scroll  -->
+<!-- document.querySelector('button').addEventListener('click', function(){
+   scrollTo( document.querySelector('aside'), Math.floor(Math.random() * 1000) + 1  , 600 );   
+}) -->
